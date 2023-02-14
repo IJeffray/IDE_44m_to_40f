@@ -99,17 +99,51 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[ProjectVariant1]
+UniqueID=2A29CDC3-9FD3-4D41-A9A3-43315F6C987E
+Description=Pin20power
+AllowFabrication=0
+ParameterCount=0
+VariationCount=2
+Variation1=Designator=J3|UniqueId=\WEFBGPOU|Kind=1|AlternatePart= 
+Variation2=Designator=J4|UniqueId=\JZIRBRDJ|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueID=CDD643E9-E2A1-4D28-BF44-6E3FBC49E299
+Description=Molex_power
+AllowFabrication=0
+ParameterCount=0
+VariationCount=2
+Variation1=Designator=C1|UniqueId=\AHKWUQAH|Kind=1|AlternatePart= 
+Variation2=Designator=J4|UniqueId=\JZIRBRDJ|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[ProjectVariant3]
+UniqueID=4318AEA3-C9CE-45E7-BF6F-79A7F631DF20
+Description=Berg_power
+AllowFabrication=0
+ParameterCount=0
+VariationCount=2
+Variation1=Designator=C1|UniqueId=\AHKWUQAH|Kind=1|AlternatePart= 
+Variation2=Designator=J3|UniqueId=\WEFBGPOU|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for IDE_44m_to_40f\Design Rule Check - IDE_44m_to_40f.html
+DItemRevisionGUID=
+
 [Parameter1]
-Name=Sch_RevNo
-Value=1
+Name=Project_Title
+Value=IDE 44male to 40female adapter
 
 [Parameter2]
 Name=Sch_ReleaseDate
 Value=2023
 
 [Parameter3]
-Name=Project_Title
-Value=IDE 44male to 40female adapter
+Name=Sch_RevNo
+Value=1
 
 [Configuration1]
 Name=Sources

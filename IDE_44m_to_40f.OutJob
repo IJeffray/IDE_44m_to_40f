@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Job1.OutJob
+Name=IDE_44m_to_40f.OutJob
 Description=
 TargetOutputMedium=Folder Structure
 VariantName=[No Variations]
@@ -44,6 +44,8 @@ OutputEnabled1_OutputMedium2=0
 OutputEnabled1_OutputMedium3=1
 OutputEnabled1_OutputMedium4=0
 OutputDefault1=0
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=VOOYTAJM|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16842751~1,16973830~1,16973831~1,16973834~1,16973835~1,16973837~1|PlotBoardProfile=True|PlotBoardProfileFileName=IDE_44m_to_40f.GM|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False|UncheckPlotDrillDrawingLayerPair0_Backdrill=False|UncheckPlotDrillDrawingLayerPair0_Checked=False|UncheckPlotDrillDrawingLayerPair0_DrillType=Regular|UncheckPlotDrillDrawingLayerPair0_FileName=IDE_44m_to_40f.GD1|UncheckPlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName=IDE_44m_to_40f.GG1|UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|UserLayerName.Caption0=IDE_44m_to_40f.GBO|UserLayerName.Caption1=IDE_44m_to_40f.GTP|UserLayerName.Caption10=IDE_44m_to_40f.GBL|UserLayerName.Caption11=IDE_44m_to_40f.GM15|UserLayerName.Caption12=IDE_44m_to_40f.GM20|UserLayerName.Caption13=IDE_44m_to_40f.GTL|UserLayerName.Caption14=IDE_44m_to_40f.GKO|UserLayerName.Caption2=IDE_44m_to_40f.GTO|UserLayerName.Caption3=IDE_44m_to_40f.GTS|UserLayerName.Caption4=IDE_44m_to_40f.GM13|UserLayerName.Caption5=IDE_44m_to_40f.GPT|UserLayerName.Caption6=IDE_44m_to_40f.GPB|UserLayerName.Caption7=IDE_44m_to_40f.GBP|UserLayerName.Caption8=IDE_44m_to_40f.GBS|UserLayerName.Caption9=IDE_44m_to_40f.GM1|UserLayerName.Count=15|UserLayerName.Layer0=16973831|UserLayerName.Layer1=16973832|UserLayerName.Layer10=16842751|UserLayerName.Layer11=16908303|UserLayerName.Layer12=16908308|UserLayerName.Layer13=16777217|UserLayerName.Layer14=16973837|UserLayerName.Layer2=16973830|UserLayerName.Layer3=16973834|UserLayerName.Layer4=16908301|UserLayerName.Layer5=16973848|UserLayerName.Layer6=16973849|UserLayerName.Layer7=16973833|UserLayerName.Layer8=16973835|UserLayerName.Layer9=16908289|DocumentPath=G:\AcornDev\IDE_44m_to_40f\IDE_44m_to_40f.PcbDoc
 OutputType2=NC Drill
 OutputName2=NC Drill Files
 OutputCategory2=Fabrication
@@ -55,6 +57,8 @@ OutputEnabled2_OutputMedium2=0
 OutputEnabled2_OutputMedium3=2
 OutputEnabled2_OutputMedium4=0
 OutputDefault2=0
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=G:\AcornDev\IDE_44m_to_40f\IDE_44m_to_40f.PcbDoc
 OutputType3=Schematic Print
 OutputName3=Schematic Prints
 OutputCategory3=Documentation
@@ -81,11 +85,21 @@ OutputEnabled4_OutputMedium3=3
 OutputEnabled4_OutputMedium4=0
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration4_Name1=ColumnNameFormat
+Configuration4_Item1=CaptionAsName
+Configuration4_Name2=General
+Configuration4_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration4_Name3=GroupOrder
+Configuration4_Item3=Comment=True|Footprint=True
+Configuration4_Name4=SortOrder
+Configuration4_Item4=Designator=Up|Comment=Up|Footprint=Up
+Configuration4_Name5=VisibleOrder
+Configuration4_Item5=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
 
 [PublishSettings]
 OutputFilePath2=Project Outputs for Free Documents\.PDF
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for Free Documents
+OutputBasePath2=Project Outputs for IDE_44m_to_40f
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -110,22 +124,22 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=
+OutputFilePath3=G:\AcornDev\IDE_44m_to_40f\Project Outputs for IDE_44m_to_40f\
 ReleaseManaged3=1
-OutputBasePath3=
+OutputBasePath3=Project Outputs for IDE_44m_to_40f
 OutputPathMedia3=
 OutputPathMediaValue3=
-OutputPathOutputer3=[Output Type]
+OutputPathOutputer3=
 OutputPathOutputerPrefix3=
 OutputPathOutputerValue3=
 OutputFileName3=
 OutputFileNameMulti3=
 UseOutputNameForMulti3=1
 OutputFileNameSpecial3=
-OpenOutput3=1
+OpenOutput3=0
 OutputFilePath4=
 ReleaseManaged4=1
-OutputBasePath4=
+OutputBasePath4=Project Outputs for IDE_44m_to_40f
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
@@ -164,9 +178,9 @@ WmvQuality4=80
 [GeneratedFilesSettings]
 RelativeOutputPath2=Project Outputs for Free Documents\.PDF
 OpenOutputs2=1
-RelativeOutputPath3=
-OpenOutputs3=1
-AddToProject3=1
+RelativeOutputPath3=G:\AcornDev\IDE_44m_to_40f\Project Outputs for IDE_44m_to_40f\
+OpenOutputs3=0
+AddToProject3=0
 TimestampFolder3=0
 UseOutputName3=0
 OpenODBOutput3=0

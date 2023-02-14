@@ -43,6 +43,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=Berg_power
 
 [Preferences]
 PrefsVaultGUID=
@@ -106,7 +107,7 @@ AllowFabrication=0
 ParameterCount=0
 VariationCount=2
 Variation1=Designator=J3|UniqueId=\WEFBGPOU|Kind=1|AlternatePart= 
-Variation2=Designator=J4|UniqueId=\JZIRBRDJ|Kind=1|AlternatePart= 
+Variation2=Designator=J4|UniqueId=\FKMNCKXS|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -116,11 +117,11 @@ AllowFabrication=0
 ParameterCount=0
 VariationCount=2
 Variation1=Designator=C1|UniqueId=\AHKWUQAH|Kind=1|AlternatePart= 
-Variation2=Designator=J4|UniqueId=\JZIRBRDJ|Kind=1|AlternatePart= 
+Variation2=Designator=J4|UniqueId=\FKMNCKXS|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant3]
-UniqueID=4318AEA3-C9CE-45E7-BF6F-79A7F631DF20
+UniqueID=D2A7D3AF-03FD-4893-91FA-6B72FF5051EE
 Description=Berg_power
 AllowFabrication=0
 ParameterCount=0
@@ -717,6 +718,36 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=Orcad v7 Capture Design
+OutputName15=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD ASCII
+OutputName16=P-CAD ASCII (AutoPCB)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD V16 Schematic Design
+OutputName17=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=SiSoft
+OutputName18=SiSoft (AutoPCB)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
